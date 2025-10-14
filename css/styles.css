@@ -9,13 +9,58 @@
 /* Main styles */
 
 body {
-
+    height: 100%;
+    width: 100%;
+    overflow: scroll; 
+    font-family: 'Futura Md BT', sans-serif;
+    background-color: transparent;
 }
 
 h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #242331;
 
+}
+h2{
+    font-size: clamp(1rem, 2vw, 1.5rem); 
+    font-weight: 300;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    color: #242331;
 }
 
 p {
 
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #D3CAA5;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #D3CAA5;
+}
+
+.start-button{
+    width: 442px;
+    height: 272px;
+    border-radius: 25px;
+    border: 10px #533E2D solid;
+    background: #A27035;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 3rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
