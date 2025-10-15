@@ -13,22 +13,49 @@
 
 </head>
 
-    
+
 
 <body>
-    
-    <!-- Content -->
-    <div class="main-container">
-        <!-- Navbar -->
-        <div class="navbar-container">
+    <header> 
+    <div class="navbar-container">
             <a href="analog-audio.html" class="nav-link">Analog Audio</a>
             <a href="sound-equipment.html" class="nav-link">Sound Equipment</a>
+    </div>
+    </header>
+    <!-- Content -->
+     <div class="setup-container">
+            <div class="button-setups active-setup-button" data-target-index="0">
+                <h2>Simple Setup</h2>
+            </div>
+            <div class="button-setups" data-target-index="1">
+                <h2>Traditional Setup</h2>
+            </div>
+            <div class="button-setups" data-target-index="2">
+                <h2>Modular Setup</h2>
+            </div>
+            <div class="button-setups" data-target-index="3">
+                <h2>Headphone Setup</h2>
+            </div>
         </div>
-        
-    </div>        
+    <div class="setup-carousel-container" style = "margin-top: auto;">
+        <div class="setup-slide active" data-index="0">
+            <img src="" alt="" class="setup-slide-image">
+            <p class="setup-slide-text"></p>
+        </div>
+        <div class="setup-slide" data-index="1">
+            <img src="" alt="" class="setup-slide-image">
+            <p class="setup-slide-text"></p>
+        </div>
+        <div class="setup-slide" data-index="2">
+            <img src="" alt="" class="setup-slide-image">
+            <p class="setup-slide-text"></p>
+        </div>
+        <div class="setup-slide" data-index="3">
+            <img src="" alt="" class="setup-slide-image">
+            <p class="setup-slide-text"></p>
+        </div>
+    </div>
 
-    
-    
 
     <!-- Script -->
     <script src="js/script.js"></script>

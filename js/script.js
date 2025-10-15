@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (startSlide) {
         const slideData = [
-            { image: "https://placehold.co/600x400/D3CAA5/242331?text=Analog+Audio", alt: "Placeholder for Analog Audio concept", title: "1. Understanding Analog Audio", text: "Vinyl records store sound waves as physical grooves. The needle reads these grooves, creating a pure, warm analog signal." },
-            { image: "https://placehold.co/600x400/A27035/FFFFFF?text=The+Turntable", alt: "Placeholder for a Turntable", title: "2. The Turntable", text: "This is the heart of the system. It spins the record at a consistent speed and holds the tonearm." },
-            { image: "https://placehold.co/600x400/533E2D/FFFFFF?text=The+Stylus", alt: "Placeholder for a record needle", title: "3. The Stylus (Needle)", text: "A tiny diamond or sapphire tip that sits in the record's groove, vibrating to read the sound information." },
-            { image: "https://placehold.co/600x400/242331/D3CAA5?text=The+Amplifier", alt: "Placeholder for an audio amplifier", title: "4. The Amplifier (Receiver)", text: "The turntable sends a weak signal. The amplifier boosts it to a level that can power the speakers." },
-            { image: "https://placehold.co/600x400/8A817C/FFFFFF?text=The+Speakers", alt: "Placeholder for speakers", title: "5. The Speakers", text: "Finally, the speakers convert the electrical signal from the amplifier back into the audible sound you hear." }
+            { image: "icons/album_100dp_E3E3E3.png", alt: "Placeholder for Analog Audio concept", title: "", text: "The turntable rotates the vinyl at a steady speed (33⅓ or 45 RPM), moving the stylus steadily inward along the groove." },
+            { image: "icons/waves_100dp_E3E3E3.png", alt: "Placeholder for a Turntable", title: "", text: "The stylus vibrates as it traces the groove’s tiny modulations, mirroring the original audio’s amplitude (loudness) and frequency (pitch)" },
+            { image: "icons/electric_bolt_100dp_E3E3E3.png", alt: "Placeholder for a record needle", title: "", text: "The cartridge (holding the stylus) converts these mechanical vibrations into a very small electrical signal." },
+            { image: "icons/electric_meter_100dp_E3E3E3.png", alt: "Placeholder for an audio amplifier", title: "", text: "This tiny “phono” signal is first boosted by a phono preamplifier. Then a main amplifier or receiver then further raises the signal level so it can drive speakers. " },
+            { image: "icons/speaker_group_100dp_E3E3E3.png", alt: "Placeholder for speakers", title: "", text: "Finally, the speakers turn the amplified electrical signal back into sound waves, producing the music we hear. " }
         ];
 
         const contentSlide = document.querySelector('[data-slide-id="content-template"]');
