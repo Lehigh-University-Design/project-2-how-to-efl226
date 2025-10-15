@@ -13,18 +13,16 @@
 
 </head>
 
-    
-
-<body>
+<header> 
     <div class="navbar-container">
             <a href="analog-audio.html" class="nav-link">Analog Audio</a>
             <a href="sound-equipment.html" class="nav-link">Sound Equipment</a>
     </div>
+</header>
+
+<body>
+    
     <!-- Content -->
-    <div class="main-container">
-        
-        
-            <h1>Analog Audio</h1>
         <!-- Vinyl Record Intro -->
         <div class="block-container">
             <div class="inner-block">
@@ -54,7 +52,33 @@
                 </p>
             </div>
         </div>
-    </div>        
+
+        <h2 style="text-align: center; margin: 50px;">How Does it Work?</h2>
+        
+        <div class="carousel-container">
+
+            <div class="slide active" data-slide-id="start">
+                <div class="slide-content">
+                    <button class="start-button"> 
+                        <h2>Start</h2>
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="slide" data-slide-id="content-template">
+                <div class="slide-content">
+                    <img src="" alt="" id="slide-image">
+                    <h2 id="slide-title"></h2>
+                    <p id="slide-text"></p>
+                    <div class="nav-arrows">
+                        <button class="arrow left-arrow" aria-label="Previous Slide">&lt;</button>
+                        <button class="arrow right-arrow" aria-label="Next Slide">&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>       
 
     
     
