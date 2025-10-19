@@ -10,7 +10,6 @@
 header{
     height: 80px;
     width: 100%;
-    background-color: #533E2D;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,7 +29,7 @@ body {
     font-family: 'futura-pt', sans-serif;
     background-color: transparent;
     background-color: #D3CAA5;
-    gap: 50px;
+    gap: 25px;
 }
 
 h1 {
@@ -58,19 +57,21 @@ p {
 }
 .navbar-container{
     height: 50px;
-    width: 30%;
-    background-color: #533E2D;
+    width: 600px;
+    background-color: #A27035;
     gap: 20px;
     border-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .nav-link{
     color: #242331;
     text-decoration: none;
     font-size: 2rem;
     font-weight: 500;
+    
 }
 .main-container{
     height: 100vh;
@@ -86,21 +87,21 @@ p {
     margin-top: 40px;
 }
 .block-container{
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-color: #D3CAA5;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     gap: 50px;
     
 }
 .block-container2{
-    height: 800px;
+    height: 900px;
     width: 100%;
-    background-color: #A27035;
+    background-color: #D3CAA5;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -115,7 +116,7 @@ p {
     height: 573px;
     width: 50%;
     align-items: center;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -174,13 +175,15 @@ z-index: 10;
     border: 10px #533E2D solid;
     background: #A27035;
     position: relative;
-    left: 0;
-    top: 0;
-    margin-top: 3rem;
     cursor: pointer;
     justify-content: center;
     align-items: center;
     display: flex;
+    text-align: center;
+}
+.start-button:hover {
+background-color: #A27035;
+transform: scale(1.025);
 }
 
 .button-setups{
@@ -241,6 +244,9 @@ background-color: #533E2D;
 .button-setups.active-setup-button h2 {
 color: #D3CAA5;
 }
+.button-setups:hover {
+transform: scale(1.1);
+}
 
 .setup-carousel-container {
 width: 90%;
@@ -280,5 +286,18 @@ border-radius: 15px;
 }
 
 .setup-slide-text {
-text-align: center;
+text-align: left;
 }
+
+/* Sound Equipment stuff */
+.small-banner{
+    height: 100px;
+    width: 100%;
+    background-color: #A27035;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
