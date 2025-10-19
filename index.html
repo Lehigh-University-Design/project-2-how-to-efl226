@@ -8,21 +8,84 @@
     <!-- CSS Refs -->
     <link type="text/css" href="css/styles.css" rel="stylesheet"/>
 
+    <!-- Font Refs -->
+    <link rel="stylesheet" href="https://use.typekit.net/jda1dlm.css">
+
     <!-- Title -->
-    <title>How To Project - Home page</title>
+    <title>How To Project - Analog Audio</title>
 
 </head>
 
-<body>
-    <!-- Content -->
-    <div class="main-container">
-        <h1>How To Listen To Vinyl Records</h1>
-        <h2>A Beginners Guide to Understanding Vinyl Record Players</h2>
+<header> 
+    <div class="navbar-container">
+            <a href="index.html" class="nav-link">Analog Audio</a>
+            <a href="sound-equipment.html" class="nav-link">Sound Equipment</a>
+    </div>
+</header>
 
-        <div class="start-button">
-            <h1>Start</h1>
-            <a href="analog-audio.html"></a>
+<body>
+    
+    <!-- Content -->
+        <!-- Vinyl Record Intro -->
+        <div class="block-container">
+            <div class="inner-block">
+                <h1>What is Analog Audio?</h1>
+                <p>Vinyl records are analog sound-storage discs made of plastic (polyvinyl chloride). 
+                    They were the main format for music playback in the 20th century and have seen a recent revival among enthusiasts. 
+                    The grooves on a record physically encode the music. When a record spins, a stylus (needle) rides in the spiral groove. 
+                    Each tiny wiggle in the groove corresponds to the original sound wave, and the stylus picks up these vibrations as it moves
+                </p>
+            </div>
+            <div class = "image-container">
+                <img src="images/turntable.jpg" alt="Vinyl Record Player"/>
+            </div>
         </div>
+        <div class="small-banner" style="height: 50px"></div>
+        <!-- Why should I care about -->
+        <div class="block-container2">
+            <div class = "image-container">
+                <img src="images\AdobeStock_1367837917.jpeg" alt="Vinyl Record Player"/>
+            </div>
+            <div class="inner-block">
+                <h1>Why Should I Care About Vinyl?</h1>
+                <p>Vinyl isn’t just about sound — it’s about ritual. 
+                    People love the crackle before the first note, the weight of the record in their hands,
+                     the artwork you can actually get lost in. Unlike a playlist that disappears into the background, 
+                     vinyl demands attention: you flip it, you drop the needle, you sit with it. It’s music you don’t just hear, 
+                     but hold. That tangible, imperfect, all-in experience is why vinyl keeps finding its way back into people’s lives.
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="carousel-container">
+
+            <div class="slide active" data-slide-id="start">
+                
+
+                <div class="slide-content">
+                    <h2 style="text-align: center; margin: 50px;">How Does it Work?</h2>
+                    <button class="start-button"> 
+                        <h1>Start Track</h1>
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="slide" data-slide-id="content-template">
+                <div class="slide-content">
+                    <img src="" alt="" id="slide-image">
+                    <h1 id="slide-title"></h1>
+                    <h1 id="slide-text"></h1>
+                    <div class="nav-arrows">
+                        <button class="arrow left-arrow" aria-label="Previous Slide">&lt;</button>
+                        <button class="arrow right-arrow" aria-label="Next Slide">&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>       
+
     
     
 
